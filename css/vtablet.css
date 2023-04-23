@@ -1,0 +1,261 @@
+#bloc_page{
+    width:auto;
+}
+
+.logo-site img{
+    height:100%;
+    width:10vw;
+}
+
+header a{
+    font-size:1.5vw;
+}
+
+#recherche h2{
+    font-size:2vw;
+}
+
+.texte-recherche{
+    font-size:1.25vw;
+    padding-bottom:0.8vw;
+}
+
+.box-formulaire{
+    display:flex;
+    margin:0;
+    height:auto;
+    padding-bottom:2vw;
+}
+
+.formulaire{
+    border:1px solid #F2F2F2;
+    border-radius:1vw;
+    height:4.3vw;
+    width:30%;
+    display:flex;
+    align-items:center;
+    position:relative;
+    overflow:hidden;
+}
+
+.icone-formulaire{
+    width:16%;
+    height:100%;
+}
+
+.icone-formulaire i{
+    font-size:1.8vw;
+}
+
+.champs-formulaire{
+    width:80%;
+    height:100%;
+    font-size:1.4vw;
+}
+
+.validation-formulaire1{
+    display:none;
+}
+
+.validation-formulaire2{
+    border-radius:1vw;
+    background-color:#0065fc;
+    width:15%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    right:0;
+}
+
+.validation-formulaire2 input{
+    background:none;
+    border:none;
+    position:absolute;
+    width:100%;
+    height:100%;
+    border-radius:1vw;
+}
+
+.validation-formulaire2 i{
+    color:white;
+    font-size:1.6vw;
+}
+
+.box-filtres{
+    height:4vw;
+}
+
+.titre-filtres{
+    font-size:1.4vw;
+}
+
+.icone-economique{
+    width:28%;
+}
+
+.icone-economique i{
+    font-size:1.5vw;
+}
+
+.icone-familial{
+    width:36%;
+}
+
+.icone-familial i{
+    font-size:1.8vw;
+}
+
+.icone-romantique{
+    width:29%;
+}
+
+.icone-romantique i{
+    font-size:1.5vw;
+}
+
+.icone-animaux{
+    width:22%;
+}
+
+.icone-animaux i{
+    font-size:1.5vw;
+}
+
+.economique, .familial, .romantique, .animaux{
+    padding-left:4.5vw;
+    font-size:1.4vw;
+}
+
+.animaux{
+    white-space:nowrap;
+}
+
+.icone-infos{
+    border:1px solid rgb(196, 196, 196);
+    border-radius:2vw;
+    height:2vw;
+    width:2vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.icone-infos i{
+    color:#0065fc;
+    font-size:1.3vw;
+}
+
+.texte-infos{
+    font-size:1.25vw;
+}
+
+#hebergements{
+    display:flex;
+    flex-direction:column-reverse;
+    gap:2vw;
+}
+
+#hebergements h2, .titre-populaires .fa-star{
+    font-size:2vw;
+}
+
+.populaires{
+    width:100%;
+}
+
+.box-populaires{
+    display:flex;
+    flex-direction:row;
+}
+
+.card-marseille1, .card-marseille2, .card-marseille3{
+    height:11vw;
+    width:31.2%;
+    border:0.5vw white solid;
+    border-radius:1vw;
+    box-shadow:0 0 3vw rgb(211, 211, 211);
+}
+
+.box-populaires h3{
+    font-size:1.25vw;
+}
+
+.box-populaires .prix-cards, .box-populaires i{
+    font-size:1.15vw;
+}
+
+.box-hebergements{
+    width:100%;
+}
+
+.box-hebergements h3{
+    font-size:1.25vw;
+}
+
+.box-hebergements .prix-cards p, .box-hebergements i{
+    font-size:1.15vw;
+}
+
+.cards-hebergements{
+    gap:2.5vw;
+}
+
+.card-marseille4, .card-marseille5, .card-marseille6, .card-marseille7, .card-marseille8, .card-marseille9{
+    width:31.2%;
+    height:17vw;
+    border:0.5vw white solid;
+    border-radius:1vw;
+    box-shadow:0 0 1vw rgb(211, 211, 211);
+}
+
+.plus{
+    font-size:1.5vw;
+    margin-top:2vw;
+}
+
+#activites h2{
+    font-size:2vw;
+    margin-left:3%;
+}
+
+.box-activites{
+    flex-wrap:wrap;
+    gap:2.5vw;
+}
+
+.box-activites h3{
+    font-size:1.25vw;
+}
+
+.card{
+    width:44vw;
+}
+
+.card-image1, .card-image4{
+    height:60vw;
+}
+
+.card-image2{
+    height:31.5vw;
+}
+
+.card-image3{
+    height:22vw;
+}
+
+.card-image5{
+    height:26vw;
+}
+
+.card-image6{
+    height:27.5vw;
+}
+
+footer h3{
+    font-size:1.5vw;
+}
+
+footer li{
+    font-size:1.25vw;
+}

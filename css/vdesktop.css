@@ -1,0 +1,534 @@
+*{
+    box-sizing:border-box;
+    font-size:1.1vw;
+}
+
+body{
+    font-family:'Raleway', sans-serif;
+}
+
+#bloc_page{
+    margin:auto;
+}
+
+
+header{
+    display:flex;
+    justify-content:space-between;
+    position:relative;
+    margin:0 3.5%;
+    margin-bottom:2%;
+}
+
+.logo-site{
+    margin-top:2%;
+    width:7%;
+}
+
+.logo-site img{ /* Logo du site */
+    height:100%;
+    width:100%;
+}
+
+.menu{ /* Navigateur */
+    display:flex;
+    padding:0;
+    margin:0;
+}
+
+.menu a:hover{
+    color:#0065fc;
+}
+
+.box-menu-hebergements, .box-menu-activites{
+    border-top:2px solid white;
+    padding:0 2vw;
+    padding-top:2.5vw;
+}
+
+.box-menu-hebergements:hover, .box-menu-activites:hover{
+    border-top:2px #0065fc solid;
+    color:#0065fc;
+}
+
+#recherche{ /* Section recherche */
+    margin:0 3.5%;
+}
+
+#recherche h2{
+    font-size:1.5vw;
+}
+
+.box-formulaire{
+    position:relative;
+    padding-bottom:1%;
+    height:4.3vw;
+    margin-bottom:1%
+}
+
+.formulaire{ /* Formulaire */
+    border:0.1vw solid #F2F2F2;
+    border-radius:1vw;
+    height:100%;
+    width:31%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.icone-formulaire{
+    background-color: #f2f2f2;
+    height:100%;
+    border-radius:1vw 0 0 1vw;
+    width:12%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.icone-formulaire i{
+    font-size:1.3vw;
+}
+
+.champs-formulaire{
+    border-style:none;
+    height:100%;
+    font-size:1.1vw;
+    font-weight:bold;
+}
+
+.champs-formulaire:focus{
+    border:none;
+    outline:none;
+}
+
+.validation-formulaire1{
+    background-color:#0065fc;
+    border:1px #0065fc solid;
+    border-radius:0 1vw 1vw 0;
+    height:100%;
+    width:30%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.validation-formulaire1 input{
+    color:white;
+    border:none;
+    background-color:#0065fc;
+    font-size:1.1vw;
+    font-weight:bold;
+    height:100%;
+    width:100%;
+    border-radius:0 1vw 1vw 0;
+}
+
+.validation-formulaire2{
+    display:none;
+}
+
+.big-box-filtres{ /* Filtres */
+    display:flex;
+    align-items:center;
+    gap:2%;
+    margin-bottom:1%
+}
+
+.categories-filtres{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:4%;
+}
+
+.categories-filtres p{
+    margin:0;
+}
+
+.box-border-filtres{
+    position:relative;
+}
+
+.box-filtres{
+    border:2px solid rgb(221,221,221);
+    border-radius:2vw;
+    display:flex;
+    align-items:center;
+    height:3.2vw;
+}
+
+.box-filtres:hover{
+    background-color:#0065fc;
+    color:white;
+}
+
+.icone-economique{
+    border-radius:2vw;
+    color:#0065fc;
+    background-color:#DEEBFF;
+    width:27%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    left:-2px;
+}
+
+.icone-familial{
+    border-radius:2vw;
+    color:#0065fc;
+    background-color:#DEEBFF;
+    width:34%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    left:-2px;
+}
+
+.icone-familial i{
+    font-size:1.4vw;
+}
+
+.icone-romantique{
+    border-radius:2vw;
+    color:#0065fc;
+    background-color:#DEEBFF;
+    width:27%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    left:-2px;
+}
+
+.icone-animaux{
+    border-radius:2vw;
+    color:#0065fc;
+    background-color:#DEEBFF;
+    width:21%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    left:-2px;
+}
+
+.economique, .familial, .romantique, .animaux{
+    padding-left:3.8vw;
+    padding-right:1.2vw;
+    font-weight:bold;
+}
+
+.animaux{
+    white-space:nowrap;
+}
+
+.informations{ /* Infos */
+    display:flex;
+    align-items:center;
+    gap:1%;
+    margin-bottom:1.5%
+}
+
+.icone-infos{
+    border:1px solid rgb(196, 196, 196);
+    border-radius:2vw;
+    height:1.5vw;
+    width:1.5vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.icone-infos i{
+    color:#0065fc;
+    font-size:0.9vw;
+}
+
+#hebergements{ /* Section hebergement*/
+    display:flex;
+    margin:0 3.5% 4% 3.5%;
+    justify-content:space-between;
+}
+
+#hebergements h2{
+    margin-top:0;
+    margin-bottom:1.7vw;
+}
+
+.populaires{ /* Sous-section "Les plus populaires" */
+    background-color:#F2F2F2;
+    border-radius:1.5vw;
+    width:31.5%;
+    padding:3%;
+}
+
+.titre-populaires{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+}
+
+.titre-populaires h2, .titre-populaires .fa-star{
+    font-size:1.5vw;
+}
+
+.box-populaires{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    gap:2.3vw;
+}
+
+.box-populaires .card-image{
+    width:37%;
+    overflow:hidden;
+    position:relative;
+}
+
+.box-populaires h3, .box-populaires p{
+    margin:0;
+}
+
+.box-populaires .prix-cards{
+    font-size:0.95vw;
+    margin-top:5%;
+}
+
+.box-populaires i{
+    font-size:0.8vw;
+}
+
+.card-marseille1, .card-marseille2, .card-marseille3{
+    height:9.7vw;
+    border:0.37vw white solid;
+    border-radius:1.5vw;
+    box-shadow:0 0 1vw rgb(211, 211, 211);
+    background-color:white;
+    overflow:hidden;
+    display:flex;
+}
+
+.marseille1, .marseille2, .marseille3{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    object-fit:cover;
+}
+
+.box-texte-marseille1, .box-texte-marseille2, .box-texte-marseille3{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:50%;
+    padding-left:5%;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+
+.texte-marseille1, .texte-marseille2, .texte-marseille3{
+    display:flex;
+    flex-direction:column;
+}
+
+.box-hebergements{ /* Sous-section "Hébergement" */
+    background-color:#F2F2F2;
+    border-radius:1.5vw;
+    width:65.5%;
+    padding:3%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+.box-hebergements h2{
+    font-size:1.5vw;
+}
+
+.box-hebergements .prix-cards p{
+    font-size:0.95vw;
+}
+
+.box-hebergements i{
+    font-size:0.8vw;
+}
+
+.cards-hebergements{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    line-height:30%;
+    height:100%
+}
+
+.cards-hebergements .card-image{
+    height:60%;
+    overflow:hidden;
+    position:relative;
+}
+
+.card-marseille4, .card-marseille5, .card-marseille6, .card-marseille7, .card-marseille8, .card-marseille9{
+    height:13.5vw;
+    width:30.5%;
+    background-color:white;
+    box-shadow: 0 0 1vw rgb(211, 211, 211);
+    border:0.37vw solid white;
+    border-radius:1.5vw;
+    overflow:hidden;
+}
+
+.texte-marseille4, .texte-marseille5, .texte-marseille6, .texte-marseille7, .texte-marseille8, .texte-marseille9{
+    padding-left:5%;
+    height:30%;
+}
+
+.marseille4, .marseille5, .marseille6, .marseille7, .marseille8, .marseille9{
+    width:100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    position:absolute;
+}
+
+.blue_star{
+    color:#0065fc;
+}
+
+.grey_star{
+    color:rgb(196, 196, 196);
+}
+
+.plus{
+    margin:0;
+    font-weight:bold;
+    font-size:1.25vw;
+}
+
+#activites{ /* Section activités */
+    margin:0 3.5%;
+}
+
+#activites h2{
+    margin-bottom:1.7vw;
+    font-size:1.5vw;
+}
+
+.box-activites{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+}
+
+.card{
+    width:21vw;
+    background-color:white;
+    box-shadow:0 0.1vw 1vw rgb(211, 211, 211);
+    border-radius:1.5vw;
+    overflow:hidden;
+}
+
+.card-image1, .card-image4{
+    height:26.5vw;
+    position:relative;
+    overflow:hidden;
+}
+
+.card-image2{
+    height:12.5vw;
+    position:relative;
+    overflow:hidden;
+}
+
+.card-image3{
+    height:8vw;
+    position:relative;
+    overflow:hidden;
+}
+
+.card-image5{
+    height:9.9vw;
+    position:relative;
+    overflow:hidden;
+}
+
+.card-image6{
+    height:10.3vw;
+    position:relative;
+    overflow:hidden;
+}
+
+.card-image2 img, .card-image3 img, .card-image5 img, .card-image6 img{
+    width:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.card-image1 img, .card-image4 img{
+    height:100%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.acti-bloc1{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.acti-bloc2{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.card-title{
+    padding-left:6%;
+}
+
+footer{
+    background-color:#f2f2f2;
+    padding-left:3.5%;
+    padding-top:2.5%;
+    padding-bottom:3%;
+    margin-top:4%;
+    line-height:2em;
+}
+
+.box-footer{
+    display:flex;
+    justify-content:space-between;
+    width:73%;
+}
+
+footer h3{
+    font-size:1.3vw;
+}
+
+footer ul{
+    padding:0px;
+    margin-top:0;
+}
+
+footer li{
+    line-height:2em;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+li{
+    list-style-type:none;
+}
